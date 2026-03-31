@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sobre - Smile System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="index.html">
+        <img src="img/logo.png" alt="Smile System" class="logo-img">
+        <span class="brand">Smile System</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="agendar.php">Agendar</a></li>
+        <li><a href="sobre.html" class="active">Sobre</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Sobre a Smile System</h1>
+    <p>
+      A <strong>Smile System</strong> nasceu com o propósito de unir tecnologia, cuidado e humanização no atendimento odontológico.
+      Nossa missão é oferecer tratamentos modernos e acessíveis, proporcionando sorrisos saudáveis e felizes.
+    </p>
+    <p>
+      Contamos com uma equipe especializada, infraestrutura moderna e equipamentos de ponta.
+      Aqui, cada paciente é tratado com atenção, carinho e profissionalismo.
+    </p>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Smile System — Todos os direitos reservados</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

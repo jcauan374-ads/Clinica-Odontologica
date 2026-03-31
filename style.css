@@ -1,0 +1,245 @@
+/* ---------- GERAL ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* ---------- CABEÇALHO ---------- */
+.site-header {
+  background: linear-gradient(90deg, #0a58ca, #1d7be3);
+  padding: 15px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.nav {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo-img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+.brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #cce5ff;
+  text-decoration: underline;
+}
+
+/* ---------- CONTEÚDO ---------- */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 40px auto;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+.hero h1 {
+  font-size: 2.3rem;
+  color: #0a58ca;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin: 15px 0 25px;
+  color: #333;
+}
+
+.btn-primary {
+  background: #1d7be3;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background: #0a58ca;
+}
+
+/* ---------- CARDS ---------- */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  margin-top: 50px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #dbe4f0;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  text-align: center;
+  padding: 20px;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card h3 {
+  color: #0a58ca;
+  margin-top: 15px;
+  font-size: 1.2rem;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* ---------- SERVIÇOS ---------- */
+.servicos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.servico {
+  background: #fff;
+  border: 1px solid #dbe4f0;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.servico:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.servico img {
+  width: 100%;
+  height: 160px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.servico h3 {
+  color: #0a58ca;
+  margin: 10px 0;
+}
+
+/* ---------- FORMULÁRIO ---------- */
+.form-agendar {
+  max-width: 500px;
+  background: #f8f9fa;
+  padding: 30px;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+.form-agendar label {
+  display: block;
+  margin: 15px 0 5px;
+  font-weight: 600;
+  color: #0a58ca;
+}
+
+.form-agendar input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccd7e0;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.form-agendar input:focus {
+  border-color: #1d7be3;
+  box-shadow: 0 0 4px rgba(29,123,227,0.4);
+}
+
+/* ---------- RODAPÉ ---------- */
+.site-footer {
+  text-align: center;
+  background: #0a58ca;
+  color: #fff;
+  padding: 15px 0;
+  margin-top: 60px;
+  font-size: 0.95rem;
+}
+
+/* ---------- RESPONSIVIDADE ---------- */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .brand {
+    font-size: 1.3rem;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+}

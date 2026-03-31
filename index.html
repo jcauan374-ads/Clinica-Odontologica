@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Smile System - Início</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="index.html">
+        <img src="img/logo.png" alt="Smile System" class="logo-img">
+        <span class="brand">Smile System</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Início</a></li>
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="agendar.php">Agendar</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Bem-vindo à Smile System</h1>
+      <p>Transformando sorrisos com tecnologia, cuidado e excelência.</p>
+      <a class="btn-primary" href="agendar.php">Agende sua consulta</a>
+    </section>
+
+    <section class="cards">
+      <article class="card">
+        <img src="img/aparelho.png" alt="Aparelho Dentário">
+        <h3>Ortodontia</h3>
+        <p>Alinhamento e correção dos dentes com aparelhos modernos.</p>
+      </article>
+      <article class="card">
+        <img src="img/clareamento.png" alt="Clareamento Dental">
+        <h3>Clareamento</h3>
+        <p>Deixe seu sorriso mais branco com segurança e resultados rápidos.</p>
+      </article>
+      <article class="card">
+        <img src="img/implante.png" alt="Implante Dentário">
+        <h3>Implantes</h3>
+        <p>Substitua dentes perdidos com conforto e estética.</p>
+      </article>
+      <article class="card">
+        <img src="img/profilaxia.png" alt="Profilaxia Dental">
+        <h3>Profilaxia</h3>
+        <p>Limpeza profissional para manter sua saúde bucal em dia.</p>
+      </article>
+      <article class="card">
+        <img src="img/endodontia.png" alt="Endodontia">
+        <h3>Endodontia</h3>
+        <p>Tratamento de canal com técnicas avançadas e indolores.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Smile System — Todos os direitos reservados</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

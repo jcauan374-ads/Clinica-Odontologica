@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Serviços - Smile System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="index.html">
+        <img src="img/logo.png" alt="Smile System" class="logo-img">
+        <span class="brand">Smile System</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="servicos.html" class="active">Serviços</a></li>
+        <li><a href="agendar.php">Agendar</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Nossos Serviços</h1>
+    <div class="servicos">
+      <div class="servico">
+        <img src="img/aparelho.png" alt="Aparelho">
+        <h3>Ortodontia</h3>
+        <p>Correção do posicionamento dos dentes e da mordida com aparelhos modernos.</p>
+      </div>
+      <div class="servico">
+        <img src="img/clareamento.png" alt="Clareamento">
+        <h3>Clareamento</h3>
+        <p>Tratamento estético que devolve o brilho natural do seu sorriso.</p>
+      </div>
+      <div class="servico">
+        <img src="img/implante.png" alt="Implantes">
+        <h3>Implantes</h3>
+        <p>Reposição segura e confortável de dentes perdidos.</p>
+      </div>
+      <div class="servico">
+        <img src="img/profilaxia.png" alt="Profilaxia">
+        <h3>Profilaxia</h3>
+        <p>Limpeza e manutenção preventiva para evitar problemas futuros.</p>
+      </div>
+      <div class="servico">
+        <img src="img/endodontia.png" alt="Endodontia">
+        <h3>Endodontia</h3>
+        <p>Tratamento de canal com técnicas modernas e resultados duradouros.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Smile System — Todos os direitos reservados</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
