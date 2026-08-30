@@ -76,7 +76,7 @@ cd Clinica-Odontologica
 php -S localhost:8000
 ```
 
-Abra `http://localhost:8000` no navegador. Para habilitar o agendamento com persistência, crie um banco MySQL, execute [`banco.sql`](./banco.sql), configure as credenciais no ambiente local e mantenha Apache e MySQL ativos.
+Abra `http://localhost:8000` no navegador. Para habilitar o agendamento com persistência, crie um banco MySQL, execute [`banco.sql`](./banco.sql), configure as credenciais no ambiente local e mantenha Apache e MySQL ativos. O fluxo atualizado registra data e horário preferidos, valida os campos no servidor, usa consultas parametrizadas, impede conflito de horário e mantém o status da solicitação (`pendente`, `confirmado`, `cancelado` ou `concluido`).
 
 > As credenciais do banco devem permanecer apenas no ambiente local. Nunca publique senhas reais no repositório.
 
