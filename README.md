@@ -2,15 +2,13 @@
 
 # 🦷 Clínica Odontológica
 
-### Sistema web de gestão e agendamento de consultas
+### Gestão e agendamento de consultas com uma experiência visual mais acolhedora
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-[![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/)
-[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
-[![Status](https://img.shields.io/badge/Status-Projeto_concluído-beef00?style=for-the-badge&logoColor=black)](#status-do-projeto)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML) [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS) [![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/) [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
 
-> **Plataforma responsiva para apresentar serviços odontológicos e centralizar o agendamento de consultas.**
+> **Uma boa experiência começa antes da consulta.**
+
+[Visualizar o site](./index.html) · [Conhecer o banco](./banco.sql)
 
 </div>
 
@@ -18,109 +16,77 @@
 
 ## 🧭 Sobre o projeto
 
-A **Clínica Odontológica** é um sistema web desenvolvido para modernizar o atendimento de uma clínica, reunindo informações sobre serviços, apresentação institucional e agendamento de consultas em uma experiência simples e responsiva.
+A **Clínica Odontológica** é um sistema web acadêmico desenvolvido para modernizar o atendimento de uma clínica, reunindo informações institucionais, serviços odontológicos e solicitação de agendamento em uma experiência simples e responsiva.
 
-O projeto combina uma interface construída com HTML e CSS, processamento de formulários em PHP e persistência de dados em MySQL.
-
-<div align="center">
-
-| 🦷 Domínio | 🧰 Stack | 📱 Experiência |
-|:---:|:---:|:---:|
-| Odontologia | PHP + MySQL | Responsiva |
-
-</div>
-
----
+O projeto mantém sua base original em **HTML, CSS, PHP e MySQL** e agora conta também com uma página inicial visual para apresentação. A nova interface comunica cuidado, clareza e proximidade, sem perder a essência do sistema de gestão e agendamento.
 
 ## ✨ Funcionalidades
 
 | Recurso | Descrição | Situação |
 |---|---|:---:|
-| 🦷 Serviços | Apresentação de procedimentos e especialidades oferecidas. | ✅ |
-| 📅 Agendamento | Formulário para solicitação de consultas online. | ✅ |
-| 📝 Processamento | Recebimento e tratamento dos dados enviados pelo usuário. | ✅ |
-| 🗄️ Banco de dados | Integração do formulário com uma base MySQL. | ✅ |
-| 📱 Responsividade | Interface adaptada para desktop e dispositivos móveis. | ✅ |
-| 🏥 Institucional | Página sobre a clínica e sua proposta de atendimento. | ✅ |
+| **Página inicial** | Apresentação visual da clínica, proposta de cuidado e chamada para contato. | ✅ |
+| **Serviços** | Apresentação de procedimentos e especialidades odontológicas. | ✅ |
+| **Agendamento** | Formulário para solicitação de consultas online. | ✅ |
+| **Processamento** | Recebimento e tratamento dos dados enviados pelo usuário. | ✅ |
+| **Banco de dados** | Estrutura MySQL para persistência das informações. | ✅ |
+| **Responsividade** | Interface adaptada para desktop e dispositivos móveis. | ✅ |
+| **Institucional** | Informações sobre a clínica e sua proposta de atendimento. | ✅ |
 
----
+## 🎨 Nova experiência visual
+
+A página inicial recebeu uma direção editorial inspirada em clínicas contemporâneas: fundo marfim, azul-petróleo, detalhes coral, tipografia de contraste e uma composição mais humana. O layout apresenta hero, diferenciais, especialidades, equipe, jornada de atendimento e contato.
+
+Essa atualização organiza a entrada do projeto de forma mais visual, mas preserva as páginas e a proposta acadêmica originais.
 
 ## 🗂️ Estrutura do projeto
 
 ```text
 Clinica-Odontologica/
-├── index.html       # Página inicial
+├── index.html       # Nova página visual de apresentação
+├── assets/          # CSS e JavaScript da página visual
 ├── servicos.html    # Serviços odontológicos
 ├── sobre.html       # Informações sobre a clínica
 ├── agendar.php      # Formulário e processamento do agendamento
-├── style.css        # Estilos e responsividade
-├── banco.sql        # Estrutura do banco de dados
+├── style.css        # Estilos originais do projeto
+├── banco.sql        # Estrutura do banco de dados MySQL
 └── README.md        # Documentação do projeto
 ```
-
----
 
 ## 🛠️ Tecnologias utilizadas
 
 <div align="center">
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
 </div>
 
-- **HTML5:** estrutura das páginas e conteúdo semântico.
-- **CSS3:** identidade visual, layout, componentes e adaptação para telas menores.
+- **HTML5:** estrutura semântica das páginas.
+- **CSS3:** identidade visual, layout e responsividade.
+- **JavaScript:** interações da nova página de apresentação.
 - **PHP:** processamento do formulário de agendamento.
-- **MySQL:** armazenamento das informações enviadas pela aplicação.
-
----
+- **MySQL:** armazenamento das informações da aplicação.
 
 ## ⚙️ Como executar localmente
 
-### Pré-requisitos
-
-Instale um ambiente com PHP e MySQL, como **XAMPP**, **WampServer** ou uma instalação equivalente.
-
-### Passo a passo
+Instale um ambiente com PHP e MySQL, como **XAMPP**, **WampServer** ou equivalente. Depois, clone o projeto e acesse sua pasta:
 
 ```bash
 git clone https://github.com/jcauan374-ads/Clinica-Odontologica.git
 cd Clinica-Odontologica
-```
-
-1. Crie um banco de dados MySQL.
-2. Execute o arquivo [`banco.sql`](./banco.sql) para criar a estrutura necessária.
-3. Configure as credenciais do banco no arquivo `agendar.php`, se necessário.
-4. Coloque o projeto na pasta pública do seu servidor local.
-5. Inicie Apache e MySQL.
-6. Acesse o endereço local do projeto pelo navegador.
-
-Com o servidor embutido do PHP, a aplicação pode ser iniciada com:
-
-```bash
 php -S localhost:8000
 ```
 
-Depois, abra `http://localhost:8000`.
+Abra `http://localhost:8000` no navegador. Para habilitar o agendamento com persistência, crie um banco MySQL, execute [`banco.sql`](./banco.sql), configure as credenciais no ambiente local e mantenha Apache e MySQL ativos.
 
-> As credenciais de banco e os dados utilizados devem ser configurados apenas no ambiente local. Não publique senhas reais no repositório.
-
----
+> As credenciais do banco devem permanecer apenas no ambiente local. Nunca publique senhas reais no repositório.
 
 ## 🧱 Conceitos aplicados
 
-`HTML semântico` · `CSS responsivo` · `formulários web` · `PHP` · `CRUD inicial` · `MySQL` · `integração front-end e back-end` · `organização de páginas`
-
----
+`HTML semântico` · `CSS responsivo` · `design editorial` · `formulários web` · `PHP` · `CRUD inicial` · `MySQL` · `integração front-end e back-end` · `organização de páginas`
 
 ## 🚧 Status do projeto
 
-Projeto acadêmico concluído em sua versão inicial. O sistema pode evoluir com autenticação, painel administrativo, validações avançadas, confirmação automática de consultas e melhorias de acessibilidade.
-
----
+Projeto acadêmico concluído em sua versão inicial e ampliado com uma página visual de apresentação. Futuras evoluções podem incluir autenticação, painel administrativo, validações avançadas, confirmação automática de consultas e integração com WhatsApp.
 
 ## 👨‍💻 Autor
 
