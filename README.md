@@ -8,7 +8,7 @@
 
 > **Uma boa experiência começa antes da consulta.**
 
-[Visualizar o site](./index.html) · [Conhecer o banco](./banco.sql)
+[🌐 Acessar o site publicado](https://jcauan374-ads.github.io/Clinica-Odontologica/) · [Ver o banco](./banco.sql)
 
 </div>
 
